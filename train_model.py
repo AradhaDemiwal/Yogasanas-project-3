@@ -67,4 +67,4 @@ history = model.fit(
 # Save model
 model.save("yoga_model.h5")
 
-print("✅ Training Complete!")
+print("Training Complete!")

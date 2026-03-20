@@ -5,7 +5,6 @@ from tensorflow.keras.models import load_model
 # Load trained model
 model = load_model("yoga_model.h5")
 
-# 👉 IMPORTANT: apne class labels yahan likho (same order as training)
 class_names = [
     'balasana_average',
     'balasana_good',
